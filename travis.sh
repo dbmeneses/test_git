@@ -1,12 +1,12 @@
 #!/bin/bash
 
-cat ../../../build.sh
-ls -l ../../../
-ls -l .
+#cat ../../../build.sh
+#ls -l ../../../
+#ls -l .
 pwd
-echo "$0"
-set -euo pipefail
-set +x
+#echo "$0"
+#set -euo pipefail
+#set +x
 java -version
 echo "JAVA_HOME: $JAVA_HOME"
 export JAVA_HOME=`dirname $(dirname $(which java))`
